@@ -9,6 +9,10 @@ on:
 jobs:
   achievements:
     runs-on: ubuntu-latest
+    environment:
+      name: prd
+    permissions:
+      contents: write
     steps:
       - uses: lowlighter/metrics@latest
         with:
@@ -24,6 +28,10 @@ jobs:
 
   github-metrics:
     runs-on: ubuntu-latest
+    environment:
+      name: prd
+    permissions:
+      contents: write
     steps:
       - uses: lowlighter/metrics@latest
         with:
@@ -40,6 +48,10 @@ jobs:
           config_timezone: ${{ secrets.USER_TIMEZONE }}
   lines:
     runs-on: ubuntu-latest
+    environment:
+      name: prd
+    permissions:
+      contents: write
     steps:
       - uses: lowlighter/metrics@latest
         with:
@@ -50,6 +62,10 @@ jobs:
           plugin_lines: yes
 
   acti_comm:
+    environment:
+      name: prd
+    permissions:
+      contents: write
     runs-on: ubuntu-latest
     steps:
       - uses: lowlighter/metrics@latest
@@ -67,6 +83,10 @@ jobs:
           config_timezone: ${{ secrets.USER_TIMEZONE }}
 
   iso_calender:
+    environment:
+      name: prd
+    permissions:
+      contents: write
     runs-on: ubuntu-latest
     steps:
       - uses: lowlighter/metrics@latest
@@ -86,6 +106,10 @@ jobs:
           plugin_isocalendar_duration: half-year
 
   contribs:
+    environment:
+      name: prd
+    permissions:
+      contents: write
     runs-on: ubuntu-latest
     steps:
       - uses: lowlighter/metrics@latest
@@ -97,6 +121,10 @@ jobs:
 
   issue_pr_lang:
     runs-on: ubuntu-latest
+    environment:
+      name: prd
+    permissions:
+      contents: write
     steps:
       - uses: lowlighter/metrics@latest
         with:
@@ -117,6 +145,10 @@ jobs:
 
   repositories:
     runs-on: ubuntu-latest
+    environment:
+      name: prd
+    permissions:
+      contents: write
     steps:
       - uses: lowlighter/metrics@latest
         with:
