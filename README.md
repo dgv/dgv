@@ -1,1 +1,25 @@
-<a href="https://github-readme-stats.dgv.dev.br/api?username=dgv&show_icons=true&include_all_commits=true&theme=default&hide_border=true"><img align="center" src="https://github-readme-stats.dgv.dev.br/api?username=dgv&show_icons=true&include_all_commits=true&theme=default&hide_border=true" alt="dgv's github stats" /></a>  <a href="https://github-readme-stats.dgv.dev.br/api/top-langs/?username=dgv&layout=compact&theme=default&hide_border=true&hide=JavaScript,HTML,CSS,Zimpl"><img align="center" src="https://github-readme-stats.dgv.dev.br/api/top-langs/?username=dgv&layout=compact&theme=default&hide_border=true&hide=JavaScript,HTML,CSS,Zimpl" /></a> 
+<a href="https://github.com/dgv">
+  <img align="center" width="49%" src="./header.svg" />
+</a>
+<br/>
+<a href="https://github.com/dgv">
+  <img align="center" width="49%" src="./repositories.svg" />
+</a>
+<a href="https://github.com/dgv">
+  <img align="center" width="49%" src="./acti_comm.svg" />
+</a>
+
+<a href="https://github.com/dgv">
+  <img align="center" width="49%" src="./iso_calender.svg" />
+</a>
+
+<a href="https://github.com/dgv">
+    <img align="center" width="49%" src="./issue_pr_lang.svg" />
+</a>
+
+<a href="https://github.com/dgv">
+    <img align="center" width="49%" src="./achievements.svg" />
+</a>
+<a href="https://github.com/dgv">
+  <img align="center" width="49%" src="./github-contrib.svg" />
+</a>
