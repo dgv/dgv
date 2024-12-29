@@ -18,8 +18,8 @@
 </a>
 
 <a href="https://github.com/dgv">
-    <img align="center" width="49%" src="./achievements.svg" />
+    <img align="center" width="49%" src="./github-habits.svg" />
 </a>
 <a href="https://github.com/dgv">
-  <img align="center" width="49%" src="./github-contrib.svg" />
+    <img align="center" width="49%" src="./achievements.svg" />
 </a>

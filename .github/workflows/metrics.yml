@@ -105,7 +105,7 @@ jobs:
           plugin_isocalendar: yes
           plugin_isocalendar_duration: half-year
 
-  contribs:
+  habits:
     environment:
       name: prd
     permissions:
@@ -114,10 +114,17 @@ jobs:
     steps:
       - uses: lowlighter/metrics@latest
         with:
-          filename: github-contrib.svg
-          token: ${{ secrets.METRICS_TOKEN }}
+          filename: github-habits.svg
+          token: ${{ secrets.METRICS_SECRET }}
+          committer_token: ${{ secrets.GITHUB_TOKEN }}
+          config_timezone: America/Sao_Paulo
+          user: dgv
           base: ""
-          plugin_notable: yes
+          template: classic
+          plugin_habits: yes
+          plugin_habits_days: 30
+          plugin_habits_charts: yes # Display charts section
+          plugin_habits_trim: yes # Trim unused hours on daily chart
 
   issue_pr_lang:
     runs-on: ubuntu-latest
