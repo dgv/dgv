@@ -115,7 +115,7 @@ jobs:
       - uses: lowlighter/metrics@latest
         with:
           filename: github-habits.svg
-          token: ${{ secrets.METRICS_SECRET }}
+          token: ${{ secrets.METRICS_TOKEN }}
           committer_token: ${{ secrets.GITHUB_TOKEN }}
           config_timezone: America/Sao_Paulo
           user: dgv
